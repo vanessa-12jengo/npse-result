@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="./css/homepage.css">
+    <link rel="stylesheet" href="./css/font-awesome-4.7.0/css/font-awesome.css">
+    <title>Homepage</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="title">
+            <span class="heading">NPSE Student Result Management System</span>
+        </div>
+        
+        <div class="nav">
+            <ul>
+                <li>
+                    <a href="homepage.html">Home</a>
+                </li>
+                <li>
+                    <a href="login.php">Admin Login</a>
+                </li>
+                <li class="dropdown" onclick="toggleDisplay('1')">
+                    <a href="#" class="dropbtn">Subjects &nbsp
+                        <span class="fa fa-angle-down"></span>
+                    </a>
+                    <div class="dropdown-content" id="1">
+                        <a href="">E.S.P&S</a>
+                        <a href="">Quantitative</a>
+                        <a href="">Verbal</a>
+                        <a href="">Mathematics</a>
+                        <a href="">General paper</a>
+                    </div>
+                </li>
+                <li class="dropdown" onclick="toggleDisplay('2')">
+                    <a href="#" class="dropbtn">Student &nbsp
+                        <span class="fa fa-angle-down"></span>
+                    </a>
+                    <div class="dropdown-content" id="2">
+                        <a href="./login.php">Results</a>
+                        <a href="">Manage Results</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    
+        <div class="slider">
+            <img src="images/NPSE.jpg" class="slider-image" alt="img">
+        </div>
+        <div class="main">
+            <span>About the Website</span>
+            <p>The Website is to help parents who have student(s) that take part in the NPSE exams to check there result output. This idea came up  after doing a proper research about the challenges parents are facing to check there child's result, it has a long manual process that why i develop this website so it will be easier for parents and students to check for there results on this website.</p>
+    
+            
+            </div>
+        </di
+
+        <div class="footer">
+            <div class="footer--contact">
+                <span>Contact Us</span>
+                <p>NPSEresults@gmail.com</p>
+                <p>+23278318725</p>
+            </div>
+            <div class="footer--info">
+                <span>Important Links</span>
+                <a href="homepage.html">Home</a>
+                <a href="login.php">Admin Login</a>
+                <a href="login.php">Results</a>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
